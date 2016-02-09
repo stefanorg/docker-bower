@@ -3,7 +3,7 @@ FROM debian:jessie
 ENV HOME /root
 
 RUN apt-get update -qq && \
-	apt-get install -y -qq git curl wget && \
+	apt-get install -y -qq sudo git curl wget && \
 	apt-get -y clean
 
 
